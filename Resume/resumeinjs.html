@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      h1,
+      th {
+        color: rgb(86, 64, 196);
+        text-align: center;
+        text-shadow: 3px 0px 4px;
+      }
+      table,
+      td,
+      tr,
+      th {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+      h2,h3 {
+        color: rgb(11, 90, 96);
+        text-decoration: underline;
+      }
+      body {
+        background-color:rgb(253, 252, 254);
+      }
+      a{
+        text-decoration: none;
+      }
+    
+      h4{
+        text-align: center;
+        font-size: 25px;
+        color: rgb(86, 64, 196);
+        text-align: center;
+        text-shadow: 3px 0px 4px;
+      }
+      hr{
+        height: 5px;
+        background-color: rgb(86, 64, 196);
+        box-shadow: 2px 0px 7px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var h1_creation=document.createElement("h1");
+      h1_creation.innerHTML="Praveen kumar vancharla";
+      let a=document.body;
+      // console.log(a);
+      a.appendChild(h1_creation)
+
+      let dev=document.createElement("h4")
+      a.appendChild(dev)
+      dev.innerHTML="Front-end developer"
+
+    //  
+      let git= document.getElementsByTagName('body')[0];
+      git.innerHTML += '<a href="https://github.com/Praveenkumar0101">Git-hub</a>';
+      
+      let br=document.createElement("br")
+      a.appendChild(br)
+
+      let br1=document.createElement("br")
+      a.appendChild(br1)
+
+      let Email= document.getElementsByTagName('body')[0];
+      Email.innerHTML += '<a href="https://www.linkedin.com/in/praveenkumar-vancharla/">Linked_in</a>';
+
+      let br2=document.createElement("br")
+      a.appendChild(br2)
+
+      let br3=document.createElement("br")
+      a.appendChild(br3)
+
+      let linkedin= document.getElementsByTagName('body')[0];
+      linkedin.innerHTML += '<a href="praveenkumarvancharla@gmail.com">praveenkumarvancharla@gmail.com</a>';
+
+      let br4=document.createElement("br")
+      a.appendChild(br4)
+
+      let br5=document.createElement("br")
+      a.appendChild(br5)
+      
+      let phone= document.getElementsByTagName('body')[0];
+      phone.innerHTML += '<a href="tel: 9573463280">9573463280</a>';
+
+      var b=document.createElement("hr");
+      a.appendChild(b)
+
+      let h2_creation=document.createElement("h2")
+      h2_creation.innerHTML="career objective :"
+      let h2=document.body
+      console.log(h2)
+      a.appendChild(h2_creation)
+
+      let p_creation=document.createElement("p")
+      p_creation.innerHTML="Aspiring Front-End Developer passionate about creating engaging and user-friendly web experiences. Proficient in HTML, CSS, and JavaScript, with a strong foundation in responsive design. Eager to contribute innovative ideas and learn from experienced teams in a dynamic work environment"
+      a.appendChild(p_creation)
+
+      let h3_creation=document.createElement("h3")
+      h3_creation.innerHTML="Experiance :"
+      a.appendChild(h3_creation)
+
+      let ex_creation=document.createElement("p")
+      ex_creation.innerHTML="Worked as on Indexing associate in black knight financial solutions Pvt Ltd, HTC towers, Kundambag road, Begumpet, Hyderabad.From 02 August 2021 to 07 September 2023"
+      a.appendChild(ex_creation)
+
+      let roles_creation=document.createElement("h3")
+      roles_creation.innerHTML="Roles and responsibilities:"
+      a.appendChild(roles_creation)
+
+      let rol_creation=document.createElement("p")
+      rol_creation.innerHTML="Conforming& Nonconforming loans, formw-2 and 9, ARMs, tax return, 1099, fannie mae & Freddie       mac Guidelines, FHA, VA, USDA Rural Development Loans and all US "
+      a.appendChild(rol_creation)
+
+      let edu_creation=document.createElement("h3")
+      edu_creation.innerHTML="Education :"
+      a.appendChild(edu_creation)
+
+      let tab=document.createElement("table")
+      document.body.appendChild(tab)
+      let tr1=document.createElement("tr")
+      tab.appendChild(tr1)
+
+      let td=document.createElement("th")
+      tr1.appendChild(td)
+      td.innerText="Qualification"
+
+
+      let td1=document.createElement("th")
+      tr1.appendChild(td1)
+      td1.innerText="School/College name"
+
+
+      let td2=document.createElement("th")
+      tr1.appendChild(td2)
+      td2.innerText="Year of pass"
+
+
+      let td3=document.createElement("th")
+      tr1.appendChild(td3)
+      td3.innerText="Percentage"
+
+      //row 2
+      let tr3=document.createElement("tr")
+      tab.appendChild(tr3)
+
+      //data
+      let data2=document.createElement("td")
+      tr3.appendChild(data2)
+      data2.innerText="B.com(compters)"
+
+      let data3=document.createElement("td")
+      tr3.appendChild(data3)
+      data3.innerText="Spoorthi degree college"
+
+
+      let data4=document.createElement("td")
+      tr3.appendChild(data4)
+      data4.innerText="2018"
+
+
+      let data5=document.createElement("td")
+      tr3.appendChild(data5)
+      data5.innerText="67%"
+
+      //3rd row
+      let tr4=document.createElement("tr")
+      tab.appendChild(tr4)
+
+      //data
+      let td4=document.createElement("td")
+      tr4.appendChild(td4)
+      td4.innerText="Intermediate"
+
+      let td5=document.createElement("td")
+      tr4.appendChild(td5)
+      td5.innerText="Sri sai co-up jr college"
+
+      let td6=document.createElement("td")
+      tr4.appendChild(td6)
+      td6.innerText="2015"
+
+      let td7=document.createElement("td")
+      tr4.appendChild(td7)
+      td7.innerText="72%"
+
+      //4th row
+       let tr5=document.createElement("tr")
+      tab.appendChild(tr5)
+
+      //td
+      let td8=document.createElement("td")
+      tr5.appendChild(td8)
+      td8.innerText="school"
+
+      let td9=document.createElement("td")
+      tr5.appendChild(td9)
+      td9.innerHTML="Vignan high shcool"
+
+      let td10=document.createElement("td")
+      tr5.appendChild(td10)
+      td10.innerHTML="2013"
+
+      let td11=document.createElement("td")
+      tr5.appendChild(td11)
+      td11.innerHTML="70%"
+
+      let h3=document.createElement("h3")
+      a.appendChild(h3)
+      h3.innerHTML="Skills :"
+
+      let hr1=document.createElement("hr")
+      a.appendChild(hr1)
+
+      let li=document.createElement("li")
+      a.appendChild(li)
+      li.innerHTML="Ability to work under pressure"
+
+      let li2=document.createElement("li")
+      a.appendChild(li2)
+      li2.innerHTML="project managing skills"
+
+      let li3=document.createElement("li")
+      a.appendChild(li3)
+      li3.innerHTML="Team management"
+
+      let li4=document.createElement("li")
+      a.appendChild(li4)
+      li4.innerHTML="Team work"
+
+      let tech=document.createElement("h3")
+      a.appendChild(tech)
+      tech.innerHTML=" Technical skillsSkills :"
+
+      let list1=document.createElement("li")
+      a.appendChild(list1)
+      list1.innerHTML="Languages: HTML, CSS, JavaScript"
+
+      let list2=document.createElement("li")
+      a.appendChild(list2)
+      list2.innerHTML=" Tools: Git, VS code"
+
+      let list3=document.createElement("li")
+      a.appendChild(list3)
+      list3.innerHTML=" Framework: Bootstrap"
+
+      let project=document.createElement("h3")
+      a.appendChild(project)
+      project.innerHTML="Projects"
+
+      let first=document.createElement("p")
+      a.appendChild(first)
+      first.innerHTML="1.Animals web page template: I made a animals web page template usinghtml and CSS with responsive design. this template includes the properties arenav bar, image tags, classes, id attributes, I frame tag for location, h & p tags and media queries Feast your eyes on breathtaking photographs capturingintimate moments in the animal kingdom."
+
+
+      let link= document.getElementsByTagName('body')[0];
+
+      link.innerHTML += '<a href="https://praveenkumar0101.github.io/JS/responsive%20website.html" title="This is a link to Bing">Click here to visit my project</a>';
+
+      let second=document.createElement("p")
+      a.appendChild(second)
+      second.innerHTML="2.shawarma Restaurant template: I made this website template using of html, CSS and bootstrap .i have included nav bar , image tags for images, h and p tags for content, included map with using of I frame tag and also added 1 making video."
+
+     
+      let link2= document.getElementsByTagName('body')[0];
+
+      link2.innerHTML += '<a href="https://praveenkumar0101.github.io/JS/yummy.html">Click here to visit my project</a>';
+    </script>
+  </body>
+</html>
